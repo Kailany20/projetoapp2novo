@@ -5,6 +5,11 @@ class Artigos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Color(0xFFc67c9d),
+        title: const Text("Artigos de informação"),
+      ),
       body: ListView(
         children: [
           card1(),
