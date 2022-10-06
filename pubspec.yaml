@@ -37,7 +37,13 @@ dependencies:
   curved_navigation_bar: ^1.0.3 #latest version
   favorite_button: ^0.0.3
   sqflite: ^2.0.3+1
+  flutter_launcher_icons: ^0.10.0
 
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icone.png"
 
 dev_dependencies:
   flutter_test:
