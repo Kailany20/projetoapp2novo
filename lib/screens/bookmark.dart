@@ -9,7 +9,15 @@ class Bookmark extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFc67c9d),
-        title: Text("Lembretes"),
+        title: const Text("Lembretes"),
+        centerTitle: true,
+  actions: [
+    Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16),
+      child: Icon(Icons.search),
+    ),
+    Icon(Icons.more_vert),
+  ],
       ),
       body: Container(
         color: Colors.transparent,
@@ -29,13 +37,7 @@ class Bookmark extends StatelessWidget {
         
         color: Colors.white,
       ),
-      final DateTime newDate = await showDatePicker(
-  context: context,
-  initialDate: DateTime(2020, 11, 17),
-  firstDate: DateTime(2017, 1),
-  lastDate: DateTime(2022, 7),
-  helpText: 'Select a date',
-      ),
+     
     );
     
   }

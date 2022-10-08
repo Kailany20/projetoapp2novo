@@ -101,6 +101,7 @@ class _CadastreState extends State<Cadastre> {
               ],
             ),
             TextField(
+              keyboardType: TextInputType.number,
               controller: passwordController,
               decoration: InputDecoration(
                 label: const Text(
@@ -127,7 +128,6 @@ class _CadastreState extends State<Cadastre> {
                   },
                 ),
               ),
-              keyboardType: TextInputType.text,
               obscureText: _isObscure,
             ),
           ],
