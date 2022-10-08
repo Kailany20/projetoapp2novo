@@ -28,6 +28,7 @@ class Artigos extends StatelessWidget {
     );
   }
 }
+
 //eu
 Widget card1() => Card(
       clipBehavior: Clip.antiAlias,
@@ -64,12 +65,13 @@ Widget card1() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -111,12 +113,13 @@ Widget card2() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -158,12 +161,13 @@ Widget card3() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -205,12 +209,13 @@ Widget card4() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -252,12 +257,13 @@ Widget card5() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -299,12 +305,13 @@ Widget card6() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -346,12 +353,13 @@ Widget card7() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -393,12 +401,13 @@ Widget card8() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -440,12 +449,13 @@ Widget card9() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -487,12 +497,13 @@ Widget card10() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {}),
             ],
           ),
         ],
@@ -535,14 +546,31 @@ Widget card11() => Card(
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: [
-              FavoriteButton(
-                isFavorite: false,
-                valueChanged: (_isFavorite) {
-                  print('Is Favorite : $_isFavorite');
-                },
-              ),
+              TextButton(
+                  child: Text('Adicionar aos favoritos ♡'),
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                    backgroundColor: Color(0xff59e7af),
+                  ),
+                  onPressed: () {
+                    favorite
+                  }),
             ],
           ),
         ],
       ),
     );
+
+final List listDicas = [
+  card1(),
+  card2(),
+  card3(),
+  card4(),
+  card5(),
+  card6(),
+  card7(),
+  card8(),
+  card9(),
+  card10(),
+  card11(),
+];
