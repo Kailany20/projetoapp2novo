@@ -1,8 +1,12 @@
-import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
+import 'package:projeto_2/screens/repositorio_articles.dart';
 
-class Artigos extends StatelessWidget {
+class Artigos extends StatefulWidget {
   @override
+  _ArtigosState createState() => _ArtigosState();
+}
+
+class _ArtigosState extends State<Artigos> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -66,7 +70,7 @@ Widget card1() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -114,7 +118,7 @@ Widget card2() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -162,7 +166,7 @@ Widget card3() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -210,7 +214,7 @@ Widget card4() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -258,7 +262,7 @@ Widget card5() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -306,7 +310,7 @@ Widget card6() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -354,7 +358,7 @@ Widget card7() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -402,7 +406,7 @@ Widget card8() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -450,7 +454,7 @@ Widget card9() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -498,7 +502,7 @@ Widget card10() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
@@ -547,30 +551,14 @@ Widget card11() => Card(
             alignment: MainAxisAlignment.center,
             children: [
               TextButton(
-                  child: Text('Adicionar aos favoritos ♡'),
+                  child: Text('Adicionar aos favoritos'),
                   style: TextButton.styleFrom(
                     primary: Colors.black,
                     backgroundColor: Color(0xff59e7af),
                   ),
-                  onPressed: () {
-                    favorite
-                  }),
+                  onPressed: () {}),
             ],
           ),
         ],
       ),
     );
-
-final List listDicas = [
-  card1(),
-  card2(),
-  card3(),
-  card4(),
-  card5(),
-  card6(),
-  card7(),
-  card8(),
-  card9(),
-  card10(),
-  card11(),
-];
