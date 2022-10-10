@@ -8,7 +8,7 @@ class Login extends StatelessWidget {
       appBar: AppBar(
          centerTitle: true,
         backgroundColor: Color(0xFFc67c9d),
-        title: const Text("Bem vinda"),
+        title: const Text("Bem-vinda"),
       ),
       
       body: Container(

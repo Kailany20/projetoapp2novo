@@ -66,18 +66,6 @@ Widget card1() => Card(
               textAlign: TextAlign.justify,
             ),
           ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
-          ),
         ],
       ),
     );
@@ -113,18 +101,6 @@ Widget card2() => Card(
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.justify,
             ),
-          ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
           ),
         ],
       ),
@@ -162,18 +138,6 @@ Widget card3() => Card(
               textAlign: TextAlign.justify,
             ),
           ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
-          ),
         ],
       ),
     );
@@ -209,18 +173,6 @@ Widget card4() => Card(
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.justify,
             ),
-          ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
           ),
         ],
       ),
@@ -258,18 +210,6 @@ Widget card5() => Card(
               textAlign: TextAlign.justify,
             ),
           ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
-          ),
         ],
       ),
     );
@@ -305,18 +245,6 @@ Widget card6() => Card(
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.justify,
             ),
-          ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
           ),
         ],
       ),
@@ -354,18 +282,6 @@ Widget card7() => Card(
               textAlign: TextAlign.justify,
             ),
           ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
-          ),
         ],
       ),
     );
@@ -401,18 +317,6 @@ Widget card8() => Card(
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.justify,
             ),
-          ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
           ),
         ],
       ),
@@ -450,18 +354,6 @@ Widget card9() => Card(
               textAlign: TextAlign.justify,
             ),
           ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
-          ),
         ],
       ),
     );
@@ -497,18 +389,6 @@ Widget card10() => Card(
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.justify,
             ),
-          ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
           ),
         ],
       ),
@@ -546,18 +426,6 @@ Widget card11() => Card(
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.justify,
             ),
-          ),
-          ButtonBar(
-            alignment: MainAxisAlignment.center,
-            children: [
-              TextButton(
-                  child: Text('Adicionar aos favoritos'),
-                  style: TextButton.styleFrom(
-                    primary: Colors.black,
-                    backgroundColor: Color(0xff59e7af),
-                  ),
-                  onPressed: () {}),
-            ],
           ),
         ],
       ),

@@ -2,7 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:projeto_2/screens/artigos.dart';
 import 'package:projeto_2/screens/bookmark.dart';
-import 'package:projeto_2/screens/favoritos.dart';
+import 'package:projeto_2/screens/tarefas.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
   final List<Widget> _pages = [
     Artigos(),
-    Favoritos(),
+    Tarefas(),
     // Bookmark(),
   ];
 
@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
           ),
           Icon(
-            Icons.favorite,
+            Icons.task,
             color: Colors.white,
           ),
           Icon(

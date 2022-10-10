@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_2/screens/cadastre.dart';
-import 'package:projeto_2/screens/favoritos.dart';
+import 'package:projeto_2/screens/tarefas.dart';
 import 'package:projeto_2/screens/login.dart';
 import 'package:projeto_2/screens/tela_inicial.dart';
 
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         "/login": (context) => Login(),
         "/cadastre": (context) => Cadastre(),
         "/telainicial": (context) => HomePage(),
-        "/favoritos":(context) => Favoritos(),
+        "/tarefas":(context) => Tarefas(),
       },
     );
   }

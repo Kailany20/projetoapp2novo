@@ -11,13 +11,13 @@ class Bookmark extends StatelessWidget {
         backgroundColor: Color(0xFFc67c9d),
         title: const Text("Lembretes"),
         centerTitle: true,
-  actions: [
-    Padding(
-      padding: EdgeInsets.symmetric(horizontal: 16),
-      child: Icon(Icons.search),
-    ),
-    Icon(Icons.more_vert),
-  ],
+        actions: [
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16),
+            child: Icon(Icons.search),
+          ),
+          Icon(Icons.more_vert),
+        ],
       ),
       body: Container(
         color: Colors.transparent,
@@ -34,13 +34,8 @@ class Bookmark extends StatelessWidget {
         border: InputBorder.none,
       ),
       style: TextStyle(
-        
         color: Colors.white,
       ),
-     
     );
-    
   }
-
 }
-
