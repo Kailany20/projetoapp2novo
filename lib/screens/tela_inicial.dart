@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
           ),
           Icon(
-            Icons.bookmark,
+            Icons.favorite,
             color: Colors.white,
           ),
         ],
