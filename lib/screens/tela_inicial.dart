@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _pages = [
     Artigos(),
     Tarefas(),
-    // Bookmark(),
+    Bookmark(),
   ];
 
   @override
